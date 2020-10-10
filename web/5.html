@@ -1,0 +1,663 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Shikhun Class 5</title>
+  <link rel="icon" type="image/jpg" sizes="32*32" href="../Pic/555.jpg">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../lightbox2-master/dist/css/lightbox.min.css">
+    <script src="../bootstrap-4.0.0-dist/js/jquery-3.4.1.min.js"></script>
+    <script src="../lightbox2-master/dist/js/lightbox.min.js"></script>
+    <style>
+      .carousel-item img{
+        height: 100%;
+        width: 100%;
+      }
+      *{
+  padding: 0px;
+  margin: 0px;
+}
+.leftside{
+  position: fixed; 
+  top: 40%;
+  left: -30px;
+  z-index: 1;
+}
+.leftside li{
+  list-style-type: none;
+  transition: 1s;
+  position: relative; 
+}
+.leftside li:hover{
+  left: 30px;
+}
+      </style>
+  </head>
+<body>
+    <div class="leftside" >
+        <ul>
+        <li ><a href="https://www.facebook.com/" title="Facebook" target="_blanck"><img src="../pic/f1.jpg" alt="" width="50px" height="40px"></a></li>
+        <li ><a href="https://twitter.com/" title="Twitter" target="_blanck"><img src="../pic/t1.png" alt="" width="50px" height="40px"></a></li>
+        <li ><a href="https://www.linkedin.com/" title="Linkedin" target="_blanck"><img src="../pic/l1.png" alt="" width="50px" height="40px"></a></li>
+        <li ><a href="https://aboutme.google.com/u/0/?referer=gplus" title="Google+" target="_blanck"><img src="../pic/g1.png" alt="" width="50px" height="40px"></a></li>
+      </ul>
+      </div>
+  <div class="container" data-spy="scroll" data-target=".navbar" data-offset="50">
+    <div id="carouselId" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselId" data-slide-to="1"></li>
+        <li data-target="#carouselId" data-slide-to="2"></li>
+        <li data-target="#carouselId" data-slide-to="3"></li>
+        <li data-target="#carouselId" data-slide-to="4"></li>
+        <li data-target="#carouselId" data-slide-to="5"></li>
+        <li data-target="#carouselId" data-slide-to="6"></li>
+        <li data-target="#carouselId" data-slide-to="7"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <a href="../pic/1.jpg" data-lightbox="group"> <img src="../pic/1.jpg" data-lightbox="group" alt="First slide"></a>
+          <div class="carousel-caption d-none d-md-block">
+            <h3 style="color: #333">Welcome</h3><h4 style="color: #333">Shikhun</h4>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <a href="../pic/2.jpg" data-lightbox="group"><img src="../pic/2.jpg" alt="First slide"></a>
+          <div class="carousel-caption d-none d-md-block">
+            <h3 style="color: #333">Are you worried?</h3>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <a href="../pic/3.jpg" data-lightbox="group"><img src="../pic/3.jpg" alt="Third slide"></a>
+          <div class="carousel-caption d-none d-md-block">
+            <h3 style="color: rgb(115, 100, 177)">Set Your Target</h3>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <a href="../pic/4.jpg" data-lightbox="group"><img src="../pic/4.jpg" alt="Third slide"></a>
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <a href="../pic/5.jpg" data-lightbox="group"><img src="../pic/5.jpg" alt="Third slide"></a>
+          <div class="carousel-caption d-none d-md-block">
+            <h3 style="color: #333">Just One Click</h3>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <a href="../pic/6.jpg" data-lightbox="group"><img src="../pic/6.jpg" alt="Third slide"></a>
+          <div class="carousel-caption d-none d-md-block">
+            <h3 style="color: #333">Learn <br>What you need</h3>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <a href="../pic/7.jpg" data-lightbox="group"><img src="../pic/7.jpg" alt="Third slide"></a>
+          <div class="carousel-caption d-none d-md-block">
+            <h3 style="color: #333">Wait</h3>
+            <p style="color: #333">Your Success</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <a href="../pic/8.jpg" data-lightbox="group"><img src="../pic/8.jpg" alt="Third slide"></a>
+          <div class="carousel-caption d-none d-md-block">
+            <h3></h3>
+            <p></p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: #0f466d;">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About us</a>
+          </li>
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">Class</a>
+            <div class="dropdown-menu" aria-labelledby="dropdownId">
+              <a class="dropdown-item" style="background-color: coral" href="1.html">Class 1</a>
+              <a class="dropdown-item" style="background-color: rgb(139, 76, 53)" href="2.html">Class 2</a>
+              <a class="dropdown-item" style="background-color: coral" href="3.html">Class 3</a>
+              <a class="dropdown-item" style="background-color: rgb(139, 76, 53)" href="4.html">Class 4</a>
+              <a class="dropdown-item active" style="background-color: coral" href="5.html">Class 5</a>
+              <a class="dropdown-item" style="background-color: rgb(139, 76, 53)" href="6.html">Class 6</a>
+              <a class="dropdown-item" style="background-color: coral" href="7.html">Class 7</a>
+              <a class="dropdown-item" style="background-color: rgb(139, 76, 53)" href="8.html">Class 8</a>
+              <a class="dropdown-item" style="background-color: coral" href="9.html">Class 9 & 10</a>
+              <a class="dropdown-item" style="background-color: rgb(139, 76, 53)" href="11.html">Class 11 & 12</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">Exclusive</a>
+            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                <button class="my-2 my-sm-0 dropdown-item" style="background-color: coral" data-toggle="modal" data-target="#pay" type="button"
+                value="submit">Lecture</button>
+                <button class="my-2 my-sm-0 dropdown-item" style="background-color: rgb(139, 76, 53)" data-toggle="modal" data-target="#pay" type="button"
+                value="submit">Note</button>
+                <button class="my-2 my-sm-0 dropdown-item" style="background-color: coral" data-toggle="modal" data-target="#pay" type="button"
+                value="submit">Tips</button>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0 my-md-0">
+          <button class="btn btn-outline-warning my-2 my-sm-0" data-toggle="modal" data-target="#log" type="button"
+            value="submit">Log in</button>
+          <button class="btn btn-outline-warning my-2 my-sm-0" data-toggle="modal" data-target="#reg"
+            type="button">Registration</button>
+          &nbsp;
+          <input class="form-control mr-sm-2" type="text" placeholder="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    <br>
+    <div class="row">
+      <div class="col-lg-2 col-md-4 col-sm-12 bg-info">
+        <br>
+        <ul class="nav flex-column " style="background-color: darkolivegreen">
+          <li class="nav-item p-1"><a class="nav-link rounded-lg" style="background-color: coral; color:aliceblue" href="1.html">Class 1</a>
+          </li>
+          <li class="nav-item p-1"><a class="nav-link rounded-lg" style="background-color: coral; color:aliceblue" href="2.html">Class 2</a>
+          </li>
+          <li class="nav-item p-1"><a class="nav-link rounded-lg" style="background-color: coral; color:aliceblue" href="3.html">Class 3</a>
+          </li>
+          <li class="nav-item p-1"><a class="nav-link rounded-lg" style="background-color: coral; color:aliceblue" href="4.html">Class 4</a>
+          </li>
+          <li class="nav-item p-1"><a class="nav-link rounded-lg" style="background-color: coral; color:aliceblue" href="5.html">Class 5</a>
+          </li>
+          <li class="nav-item p-1"><a class="nav-link rounded-lg" style="background-color: coral; color:aliceblue" href="6.html">Class 6</a>
+          </li>
+          <li class="nav-item p-1"><a class="nav-link rounded-lg" style="background-color: coral; color:aliceblue" href="7.html">Class 7</a>
+          </li>
+          <li class="nav-item p-1"><a class="nav-link rounded-lg" style="background-color: coral; color:aliceblue" href="8.html">Class 8</a>
+          </li>
+          <li class="nav-item p-1"><a class="nav-link rounded-lg" style="background-color: coral; color:aliceblue" href="9.html">Class 9 &
+              10</a></li>
+          <li class="nav-item p-1"><a class="nav-link rounded-lg" style="background-color: coral; color:aliceblue" href="11.html">Class 11 &
+              12</a></li>
+        </ul>
+      </div><br>
+      <div class="col-lg-8 col-md-4 col-sm-12  bg-white">
+        <div class="row">
+          <div class="col-lg-4 col-md-12"><br>
+            <div class="card border-secondary shadow">
+              <a href="pic/b5.jpg" data-lightbox="b5"><img class="card-img-top" data-lightbox="b5" src="pic/b5.jpg" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">আমার বাংলা বই</h4>
+                <p class="card-text"></p><br>
+                <a href="https://drive.google.com/file/d/1313kLdsas6xEd0cv6lJhhfFIlFTa4XTG/view" target="_blanck" class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 "><br>
+            <div class="card border-secondary shadow">
+              <a href="pic/e5.jpg" data-lightbox="e5"><img class="card-img-top" data-lightbox="e5" src="pic/e5.jpg" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">English for Today</h4>
+                <p class="card-text"></p>
+                <a href="https://drive.google.com/file/d/1CDZMpAglzLORNKJ3y4Ogv9v7qwAZP9az/view" target="_blanck" class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12"><br>
+            <div class="card border-secondary shadow">
+              <a href="pic/m5.jpg" data-lightbox="m5"><img class="card-img-top" data-lightbox="m5" src="pic/m5.jpg" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">প্রাথমিক গণিত</h4>
+                <p class="card-text"></p><br>
+                <a href="https://drive.google.com/file/d/15lujxWjfSEB2mB7mCqjgqg8ATLTmGjL7/view" target="_blanck" class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-12"><br>
+            <div class="card border-secondary shadow">
+              <a href="pic/so5.jpg" data-lightbox="so5"><img class="card-img-top" data-lightbox="so5" src="pic/so5.jpg" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">	প্রাথমিক বিজ্ঞান</h4>
+                <p class="card-text"></p>
+                <a href="https://drive.google.com/file/d/1rJI4nEKeoTXjiP6r49kGvLQGNJ5bdnXa/view" target="_blanck" class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12"><br>
+            <div class="card border-secondary shadow">
+              <a href="pic/song5.jpg" data-lightbox="song5"><img class="card-img-top" data-lightbox="song5" src="pic/song5.jpg" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">সংগীত</h4>
+                <p class="card-text"></p>
+                <a href="https://drive.google.com/file/d/0B8L6VJQZe3EEVHgyWXZRTDlTMFU/view?usp=drive_open" target="_blanck" class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12"><br>
+            <div class="card border-secondary shadow">
+              <a href="pic/pt5.jpg" data-lightbox="pt5"><img class="card-img-top" data-lightbox="pt5" src="pic/pt5.jpg" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">শারীরিক শিক্ষা </h4>
+                <p class="card-text"></p>
+                <a href="https://drive.google.com/file/d/0B8L6VJQZe3EEZGg5N1JfTnlmazA/view?usp=drive_open" target="_blanck" class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-12"><br>
+            <div class="card border-secondary shadow">
+              <a href="pic/ca5.jpg" data-lightbox="ca5"><img class="card-img-top" data-lightbox="ca5" src="pic/ca5.jpg" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">চারু ও কারুকলা</h4>
+                <p class="card-text"></p><br>
+                <a href="https://drive.google.com/file/d/0B8L6VJQZe3EEX04wSFdtX2JnMlU/view?usp=drive_open" target="_blanck" class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12"><br>
+            <div class="card border-secondary shadow">
+              <a href="pic/i5.jpg" data-lightbox="i5"><img class="card-img-top" data-lightbox="i5" src="pic/i5.jpg" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">ইসলাম ও নৈতিক শিক্ষা </h4>
+                <p class="card-text"></p>
+                <a href="https://drive.google.com/file/d/1v1kyKo3sUvHqPSqZSyiCSt9F-aXEZdYb/view" target="_blanck" class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12"><br>
+            <div class="card border-secondary shadow">
+              <a href="pic/h5.jpg" data-lightbox="h5"><img class="card-img-top" data-lightbox="h5" src="pic/h5.jpg" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">হিন্দুধর্ম ও নৈতিক শিক্ষা</h4>
+                <p class="card-text"></p>
+                <a href="https://drive.google.com/file/d/1QnQLRihnYI97lYpMvdFttuGUL0-4mxQm/view" target="_blanck" class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-12"><br>
+            <div class="card border-secondary shadow">
+              <a href="pic/k5.jpg" data-lightbox="k5"><img class="card-img-top" data-lightbox="k5" src="pic/k5.jpg" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">খ্রিষ্টধর্ম ও নৈতিক শিক্ষা </h4>
+                <p class="card-text"></p>
+                <a href="https://drive.google.com/file/d/0B8L6VJQZe3EELTlfTElSZXVZM28/view?usp=drive_open" target="_blanck" class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+          </div><br>
+          <div class="col-lg-4 col-md-12"><br>
+            <div class="card border-secondary shadow">
+              <a href="pic/bo5.jpg" data-lightbox="bo5"><img class="card-img-top" data-lightbox="bo5" src="pic/bo5.jpg" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">বৌদ্ধধর্ম ও নৈতিক শিক্ষা</h4>
+                <p class="card-text"></p>
+                <a href="https://drive.google.com/file/d/1sIuL5BPq5mCEB41oDm4wtZWjffqwwPvC/view" target="_blanck" class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+          </div><br>
+          <div class="col-lg-4 col-md-12"><br>
+            <div class="card border-secondary shadow">
+              <a href="pic/bb5.jpg" data-lightbox="bb5"><img class="card-img-top" data-lightbox="bb5" src="pic/bb5.jpg" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">বাংলাদেশ ও বিশ্বপরিচয়</h4>
+                <p class="card-text"></p>
+                <a href="https://drive.google.com/file/d/161XJbCMQKXrpdVu5DtSui4CSX9fpEHJi/view" target="_blanck" class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+          </div><br>
+        </div>
+      </div><br>
+      <div class="col-lg-2 col-md-4 col-sm-12  bg-info">
+        <br>
+        <div>
+          <canvas class="rounded-circle" id="canvas" width="150" height="150" style="background-color:#333">
+          </canvas>
+          <script>
+            var canvas = document.getElementById("canvas");
+            var ctx = canvas.getContext("2d");
+            var radius = canvas.height / 2;
+            ctx.translate(radius, radius);
+            radius = radius * 0.85
+            setInterval(drawClock, 1000);
+            function drawClock() {
+              drawFace(ctx, radius);
+              drawNumbers(ctx, radius);
+              drawTime(ctx, radius);
+            }
+            function drawFace(ctx, radius) {
+              var grad;
+              ctx.beginPath();
+              ctx.arc(0, 0, radius, 0, 2 * Math.PI);
+              ctx.fillStyle = 'white';
+              ctx.fill();
+              grad = ctx.createRadialGradient(0, 0, radius * 0.95, 0, 0, radius * 1.05);
+              grad.addColorStop(0, '#333');
+              grad.addColorStop(0.5, 'white');
+              grad.addColorStop(1, '#333');
+              ctx.strokeStyle = grad;
+              ctx.lineWidth = radius * 0.1;
+              ctx.stroke();
+              ctx.beginPath();
+              ctx.arc(0, 0, radius * 0.1, 0, 2 * Math.PI);
+              ctx.fillStyle = '#333';
+              ctx.fill();
+            }
+            function drawNumbers(ctx, radius) {
+              var ang;
+              var num;
+              ctx.font = radius * 0.15 + "px arial";
+              ctx.textBaseline = "middle";
+              ctx.textAlign = "center";
+              for (num = 1; num < 13; num++) {
+                ang = num * Math.PI / 6;
+                ctx.rotate(ang);
+                ctx.translate(0, -radius * 0.85);
+                ctx.rotate(-ang);
+                ctx.fillText(num.toString(), 0, 0);
+                ctx.rotate(ang);
+                ctx.translate(0, radius * 0.85);
+                ctx.rotate(-ang);
+              }
+            }
+            function drawTime(ctx, radius) {
+              var now = new Date();
+              var hour = now.getHours();
+              var minute = now.getMinutes();
+              var second = now.getSeconds();
+              //hour
+              hour = hour % 12;
+              hour = (hour * Math.PI / 6) +
+                (minute * Math.PI / (6 * 60)) +
+                (second * Math.PI / (360 * 60));
+              drawHand(ctx, hour, radius * 0.5, radius * 0.07);
+              //minute
+              minute = (minute * Math.PI / 30) + (second * Math.PI / (30 * 60));
+              drawHand(ctx, minute, radius * 0.8, radius * 0.07);
+              // second
+              second = (second * Math.PI / 30);
+              drawHand(ctx, second, radius * 0.9, radius * 0.02);
+            }
+            function drawHand(ctx, pos, length, width) {
+              ctx.beginPath();
+              ctx.lineWidth = width;
+              ctx.lineCap = "round";
+              ctx.moveTo(0, 0);
+              ctx.rotate(pos);
+              ctx.lineTo(0, -length);
+              ctx.stroke();
+              ctx.rotate(-pos);
+            }
+          </script>
+        </div><br>
+        <div class="border-secondary mx-3" style="background-color: #333;color: rgb(250, 220, 161); width: 130px;">
+          <p class="p-2" id="YMD">
+          </p>
+          <script>
+            var d = new Date();
+            var months = ["Jan", "Feb", " Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep",
+              "Oct", "Nov", "Dec"
+            ];
+            document.getElementById("YMD").innerHTML = d.getDate() + " - " + months[d.getMonth()] + " - " + d
+              .getFullYear();
+          </script>
+        </div>
+        <br>
+        <ul class="nav nav-pills" role="tablist">
+          <li class="nav-item" style="background-color: coral"><a class="nav-link active" data-toggle="pill"
+              href="#home">উক্তি</a></li>
+          <li class="nav-item" style="background-color: coral"><a class="nav-link" data-toggle="pill"
+              href="#menu1">পরামর্শ</a></li>
+        </ul><br>
+        <div class="tab-content">
+          <div id="home" class="container tab-pane active">
+            <marquee width="150px" height="400px" behavior="scroll" scrollamount="4" direction="up"
+              onmouseover="this.stop();" onmouseout="this.start();" style="border: rgb(23, 41, 75) solid">
+              <table border="1" style="display: inline-block; width: 100%;">
+                <tr>
+                  <td>আমরা অজ্ঞ থাকবো বলে বদ্ধপরিকর ছিলাম আর আমাদের শিক্ষকরা আমাদের মন পাল্টানোর চেষ্টা করে যাচ্ছিলো। –
+                    এলান ব্রায়েন</td>
+                </tr>
+                <tr>
+                  <td>শিক্ষার প্রথম কাজ হলো কৌতুহলের শিকে ছেঁড়া। – আইভরি ব্রাউন</td>
+                </tr>
+                <tr>
+                  <td>স্কুল জীবনের প্রস্তুতির জন্যে তৈরি হওয়া উচিত নয়। স্কুলই জীবন হওয়া উচিত। – এলবার্ট হাবার্ড</td>
+                </tr>
+                <tr>
+                  <td>ভাবনার জগতের সাথে একাত্ম হওয়া – এটাই হলো শিক্ষা। – এডিথ হেমিলটন</td>
+                </tr>
+                <tr>
+                  <td>শিক্ষা হলো সভ্যতার রূপায়ন। – উইল এণ্ড এরিয়াল ডুরান্ট</td>
+                </tr>
+                <tr>
+                  <td>মৃত্যু না হওয়া পর্যন্ত মানুষের শিক্ষা সমাপ্ত হয় না। – রবার্ট ই লি</td>
+                </tr>
+                <tr>
+                  <td>মানুষের সুখী হওয়ার জন্যে সবচেয়ে বেশি দরকার বুদ্ধির – এবং শিক্ষার মাধ্যমে এর বৃদ্ধি ঘটানো সম্ভব।
+                    – বাট্রাণ্ড রাসেল</td>
+                </tr>
+                <tr>
+                  <td>শেখাতে গেলেই শেখা হয়। – জাপানী প্রবাদ</td>
+                </tr>
+                <tr>
+                  <td>আমি শুনলাম এবং ভুলে গেলাম, আমি দেখলাম এবং মনে রাখলাম, আমি করলাম আর বুঝতেও পারলাম। – চীনা প্রবাদ
+                  </td>
+                </tr>
+                <tr>
+                  <td>একজন শিক্ষক সামগ্রিকভাবে প্রভাব ফেলে, কেউ বলতে পারে না তার প্রভাব কোথায় গিয়ে শেষ হয়। – হেনরি
+                    এডামস</td>
+                </tr>
+                <tr>
+                  <td>মাঝারি মানের শিক্ষক বলেন, ভাল শিক্ষক বুঝিয়ে দেন, শ্রেষ্ঠ শিক্ষক করে দেখান। মহান শিক্ষক অনুপ্রাণিত
+                    করেন। – উইলয়াম আর্থার ওয়ার্ড</td>
+                </tr>
+                <tr>
+                  <td>আপনি একদিনের জন্য একটা ছাত্রকে একটা পড়া পড়াতে পারেন; কিন’ যদি তাকে আপনি কৌতুহলী হতে শেখান সে
+                    যতোদিন বাঁচবে শিক্ষা চালিয়েই যাবে। – ক্লে পি. বেডফোর্ড</td>
+                </tr>
+              </table>
+            </marquee>
+          </div>
+          <div id="menu1" class="container tab-pane fade">
+            <marquee width="150px" height="400px" behavior="scroll" scrollamount="4" direction="up"
+              onmouseover="this.stop();" onmouseout="this.start();" style="border: rgb(23, 41, 75) solid">
+
+              <table border="1" style="display: inline-block; width: 100%;">
+                <tr>
+                  <td>আন্ডারলাইনিং হল সহজ ও সর্বাধিক পরিচিত অধ্যয়নের পরামর্শ</td>
+                </tr>
+                <tr>
+                  <td>আপনার নিজের অধ্যয়নের নোটগুলি তৈরি করুন</td>
+                </tr>
+                <tr>
+                  <td>একটি ভাল ভবিষ্যৎ পরিকল্পনা আপনাকে অনেক ঘন্টা অধ্যয়ন সাশ্রয় করতে এবং আপনার পরীক্ষার জন্য আপনার
+                    জ্ঞানকে আরও সুসংহত করতে পারে। </td>
+                </tr>
+                <tr>
+                  <td>পরীক্ষার সপ্তাহ এবং দিনগুলিতে কুইজগুলি স্টাডি নোটগুলি পর্যালোচনা করার একটি দুর্দান্ত উপায়।</td>
+                </tr>
+                <tr>
+                  <td>অধ্যয়নের সময়সূচী তৈরি করা আপনার লক্ষ্য এবং একটি সময় দেয় যাতে সাফল্য অর্জন করতে পারে।</td>
+                </tr>
+                <tr>
+                  <td>স্মৃতিচারণ বিশেষত দরকারী যখন তালিকাগুলি এবং সেটগুলি মুখস্থ করে। স্মৃতিবিজ্ঞান তৈরির বিভিন্ন উপায়
+                    রয়েছে এবং এগুলি ব্যক্তির স্বতন্ত্র হতে পারে।</td>
+                </tr>
+                <tr>
+                  <td>অনুশীলন, অনুশীলন, অনুশীলন</td>
+                </tr>
+
+              </table>
+            </marquee>
+          </div>
+        </div>
+      </div>
+    </div><br>
+    <footer style="background-color: rgb(63, 39, 9)"><br>
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <form action="">
+            <fieldset>
+              <legend style="color:darkcyan" class="mx-2">Comment:</legend>
+              <input type="text" class="m-2" placeholder="Name"><br>
+              <textarea row="1" cols="44" placeholder="comment" class="mx-2"></textarea><br>
+              <input type="submit" value="submit" class="mx-2">
+            </fieldset>
+          </form>
+        </div>
+        <div class="col-lg-6 col-md-12 p-2">
+            <div class="container">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.1344290369975!2d90.3773050144564!3d23.77822689363081!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c74c29ceeafb%3A0xe72ef11d9cf0aeef!2z4KaG4KaH4Kah4Ka_4Kas4Ka_LeCmrOCmv-CmhuCmh-Cmj-CmuOCmh-CmoeCmrOCnjeCmsuCngQ!5e0!3m2!1sbn!2sbd!4v1565856506553!5m2!1sbn!2sbd"
+                  width="100%" height="180" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <div class="container">
+    <div class="modal" id="log">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="madal-title">Log in:</h3>
+            <button type="button" class="close" data-dismiss="modal">&times</button>
+          </div>
+          <div class="modal-body">
+            <form action="">
+              <div class="row">
+                <div class="col-4">
+                  <label for="">Name:</label></div>
+                <div class="col-8">
+                  <input type="text" class="text form-control" placeholder="Full Name"> </div>
+                <div class="col-4">
+                  <label for="">Mobile Number:</label></div>
+                <div class="col-8">
+                  <input type="text" class="text form-control" placeholder="01xxxxxxxxx"> </div>
+                <div class="col-4">
+                  <label for="">Password:</label></div>
+                <div class="col-8">
+                  <input type="password" class="password form-control" minlength="8" placeholder="Minimum Length 8">
+                </div>
+                <div class="col-4"></div>
+                <div class="col-2">
+                  <button type="button" value="submit" class="btn btn-success m-2">Submit</button>
+                </div>
+                <div class="col-6"><button type="button" value="close" class="btn btn-danger m-2"
+                    data-dismiss="modal">Close</button></div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="modal" id="reg">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="madal-title">Registration:</h3>
+            <button type="button" class="close" data-dismiss="modal">&times</button>
+          </div>
+          <div class="modal-body">
+            <form action="">
+              <div class="row">
+                <div class="col-4">
+                  <label for="">Name:</label></div>
+                <div class="col-8">
+                  <input type="text" class="text form-control" placeholder="Full Name"> </div>
+                <div class="col-4">
+                  <label for="">Email:</label></div>
+                <div class="col-8">
+                  <input type="text" class="text form-control" placeholder="example@"> </div>
+                <div class="col-4">
+                  <label for="">Mobile Number:</label></div>
+                <div class="col-8">
+                  <input type="text" class="text form-control" placeholder="01xxxxxxxxx"> </div>
+                <div class="col-4">
+                  <label for="">Password:</label></div>
+                <div class="col-8">
+                  <input type="password" class="password form-control" minlength="8" placeholder="Minimum Length 8">
+                </div>
+                <div class="col-4">
+                  <label for="">Re-password:</label></div>
+                <div class="col-8">
+                  <input type="password" class="password form-control" minlength="8" placeholder="Minimum Length 8">
+                </div>
+                <div class="col-4"></div>
+                <div class="col-2">
+                  <button type="button" value="submit" class="btn btn-success m-2">Submit</button>
+                </div>
+                <div class="col-6"><button type="button" value="close" class="btn btn-danger m-2"
+                    data-dismiss="modal">Close</button></div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="modal" id="pay">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="madal-title">Payment Form:</h3>
+            <button type="button" class="close" data-dismiss="modal">&times</button>
+          </div>
+          <div class="modal-body">
+            <form action="">
+              <div class="row">
+                <div class="col-4">
+                  <label for="">Name:</label></div>
+                <div class="col-8">
+                  <input type="text" class="text form-control" placeholder="Full Name"> </div>
+
+                <div class="col-4">
+                  <label for="">Mobile Number:</label></div>
+                <div class="col-8">
+                  <input type="text" class="text form-control" placeholder="01xxxxxxxxx"> </div>
+                <div class="col-4">
+                  <label for="">Amount:</label></div>
+                <div class="col-8">
+                  <input type="radio" name="tk">500 TK
+                  <input type="radio" name="tk">750 TK
+                  <input type="radio" name="tk">1000 TK</div>
+                <div class="col-4"></div>
+                <div class="col-3">
+                  <button type="button" value="submit" class="btn btn-success m-2">Payment</button>&nbsp;
+                </div>
+                <div class="col-5"><button type="button" value="close" class="btn btn-danger m-2"
+                    data-dismiss="modal">Close</button></div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+          <script>
+            document.cookie="username5=nayem5; max-age="+60*60*24*10;
+            </script>
+</body>
+</html>
